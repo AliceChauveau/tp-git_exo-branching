@@ -7,4 +7,4 @@ y = factor(y)
 
 plot(x1, x2, col = y, pch = 19, main = "bonjour", xlab = "x1", ylab = "x2")
 grid()
-legend("topleft", paste( "y =", levels(y)), col = seq(nlevels(y)), pch = 19, bg = "white")
+legend("topleft", paste( "y =", levels(y)), col = c("lightblue","pink"), pch = 19, bg = "white")
